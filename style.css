@@ -27,3 +27,40 @@
 
 .paper-list {
 }
+
+
+.paper-list-div{
+}
+
+.paper{
+    margin-bottom:1em;
+}
+.paper-title{
+    font-size: 110%;
+}
+.paper-journal-links{
+    font-size: 90%;
+    position: relative;
+    left: 1em;    
+}
+
+.journal-name{
+    font-style: italic;
+}
+
+.doi-link{
+/*    font-size: 90%;*/
+    padding: 0 1em;
+    background: #32a852;
+}
+.arxiv-link{
+/*    font-size: 90%;*/
+    padding: 0 1em;
+    background: #b31b1b;/*ArXiv's red*/
+}
+
+.paper-author-list{
+    font-size: 90%;
+    position: relative;
+    left: 1em;
+}
