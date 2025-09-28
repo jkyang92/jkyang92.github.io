@@ -1,0 +1,64 @@
+- title: Conditions for virtually Cohen--Macaulay simplicial complexes
+  authors: Adam Van Tuyl and Jay Yang
+  arXiv: 2311.17806
+  doi: 10.1016/j.aam.2024.102830
+  journal: Advances in Applied Math
+  
+- title: CellularResolutions M2 package
+  authors: Aleksandra Sobieska and Jay Yang
+  arXiv: 2307.08224
+
+- title: Hadamard products and binomial ideals
+  authors: "Büşra Atar, Kieran Bhaskara, Adrian Cook, Sergio Da Silva, Megumi Harada, Jenna Rajchgot, Adam Van Tuyl, Runyue Wang, and Jay Yang"
+  arXiv: 2211.1421
+  jorunal: Journal of Pure and Applied Algbera
+
+- title: "Syzygies of P1×P1: data and conjectures"
+  authors: Juliette Bruce, Daniel Corey, Daniel Erman, Steve Goldstein, Robert P. Laudone, and Jay Yang
+  arXiv: 2104.14598
+  doi: 10.1016/j.jalgebra.2021.10.023
+  journal: Jorunal of Algebra
+
+- title: Homological and combinatorial aspects of virtually Cohen--Macaulay sheaves
+  authors: Christine Berkesch, Michael C. Loper, Patricia Klein, and Jay Yang
+  arXiv: 2012.14047
+  journal: Transactions of the London Mathematics Society
+
+- title: Combinatorial aspects of virtually Cohen--Macaulay sheaves
+  authors: Christine Berkesch, Michael C. Loper, Patricia Klein, and Jay Yang
+  journal: "Séminaire Lotharingien de Combinatoire"
+
+- title: Asymptotic degree of random monomial ideals
+  authors: Lily Silverstein, Dane Wilburne, and Jay Yang
+  arXiv: 2009.05174
+  journal: Journal of Commutative Algebra
+
+- title: Characteristic Dependence of Syzygies of Random Monomial Ideals
+  authors: Caitlyn Booms, Daniel Erman, and Jay Yang
+  arXiv: 2007.13914
+  journal: SIAM Journal on Discrete Mathematics
+
+- title: Virtual Resolutions of Monomial Ideals on Toric Varieties
+  authors: Jay Yang
+  arXiv: 1906.00508
+  journal: Proceedings of the AMS Series B
+
+- title: The SchurVeronese package in Macaulay2
+  authors: Juliette Bruce, Daniel Erman, Steve Goldstein, and Jay Yang
+  arXiv: 1905.12661
+  journal: JSAG
+
+- title: Conjectures and computations about veronese syzygies
+  authors: Juliette Bruce, Daniel Erman, Steve Goldstein, and Jay Yang
+  arXiv: 1711.03513
+  journal: Experimental Mathematics
+  
+- title: Random flag complexes and asymptotics syzygies
+  authors: Daniel Erman and Jay Yang
+  arXiv: 1706.01488
+  journal: "Algebra & Number Theory"
+
+- title: Random toric surfaces and a threshold for smoothness
+  authors: Jay Yang
+  arXiv: 1605.08739
+  journal: Journal of Algebra

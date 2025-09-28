@@ -18,129 +18,30 @@ Algebra, and Combinatorics. </p>
   <br/>
   <br/>
   <ol class="paper-list">
+    {% for paper in site.data.papers %}
     <li class="paper">
-      <div class="paper-title">
-        Conditions for Virtually Cohen--Macaulay Simplicial Complexes
-      </div>
+      <div class="paper-title">{{paper.title}}</div>
       <div class="paper-journal-links">
-        <span class="journal-name">Advances in Applied Math</span>
-        <a href="https://doi.org/10.1016/j.aam.2024.102830" class="pure-button doi-link"> DOI </a>
-        <a href="https://arxiv.org/abs/2311.17806" class="pure-button arxiv-link"> arXiv </a>
-      </div>
-      <div class="paper-author-list">
-        Adam Van Tuyl and Jay Yang
-      </div>
-    </li>
-    <li class="paper">
-      <div class="paper-title">CellularResolutions M2 Package</div>
-      <div class="paper-journal-links">
+        <span class="journal name">
+        {% if paper.journal %}
+        {{paper.journal}}
+        {% else %}
         Preprint
-        <a href="https://arxiv.org/abs/2307.08224" class="pure-button arxiv-link"> arXiv </a>              
+        {% endif %}
+        </span>
+        {% if paper.doi %}
+        <a href="https://doi.org/{{paper.doi}}" class="pure-button doi-link"> DOI </a>
+        {% endif %}
+        {% if paper.arXiv %}
+        <a href="https://arxiv.org/abs/{{paper.arXiv}}" class="pure-button arxiv-link"> arXiv </a>
+        {% endif %}
       </div>
       <div class="paper-author-list">
-        Aleksandra Sobieska and Jay Yang
+        {{paper.authors}}
       </div>
     </li>
-    <li class="paper">
-      <div class="paper-title">
-        Hadamard Products and Binomial Ideals
-      </div>
-      <div class="paper-journal-links">
-        <span class="journal-name">Journal of Pure and Applied Algebra</span>
-        <a href="" class="pure-button doi-link"> DOI </a>
-        <a href="https://arxiv.org/abs/2211.14210" class="pure-button arxiv-link"> arXiv </a>
-      </div>
-      <div class="paper-author-list">
-        Büşra Atar, Kieran Bhaskara, Adrian Cook, Sergio Da Silva, Megumi Harada, Jenna Rajchgot, Adam Van Tuyl, Runyue Wang, and Jay Yang
-      </div>
-    </li>
-
-    <li class="paper">
-      <div class="paper-title">
-        Syzygies of P1×P1: data and conjectures
-      </div>
-      <div class="paper-journal-links">
-        <span class="journal-name">Journal of Algebra</span>
-        <a href="https://doi.org/10.1016/j.jalgebra.2021.10.023" class="pure-button doi-link">DOI</a>
-        <a href="https://arxiv.org/abs/2104.14598" class="pure-button arxiv-link"> arXiv </a>
-      </div>
-      <div class="paper-author-list">
-        Juliette Bruce, Daniel Corey, Daniel Erman, Steve Goldstein, Robert P. Laudone, and Jay Yang
-      </div>
-    </li>
-    <li class="paper">
-      <div class="paper-title">
-        Homological and combinatorial aspects of virtually Cohen--Macaulay sheaves
-      </div>
-      (with Christine Berkesch, Michael C. Loper, and Patricia Klein)
-      <em> Transactions of the London Mathematics Society </em>
-      <a href="https://arxiv.org/abs/2012.14047"> arXiv </a>
-    </li>
-    <li class="paper">
-      <div class="paper-title">
-        Combinatorial aspects of virtually Cohen--Macaulay sheaves
-      </div>
-      (with Christine Berkesch, Michael C. Loper, and Patricia Klein)
-      <em> Séminaire Lotharingien de Combinatoire </em>
-    </li>
-    <li class="paper">
-      <div class="paper-title">
-        Asymptotic Degree of Random Monomial Ideals
-      </div>
-      (with Lily Silverstein and Dane Wilburne)
-      <em> Journal of Commutative Algebra </em>
-      <a href="https://arxiv.org/abs/2009.05174"> arXiv </a>
-    </li>
-    <li class="paper">
-      <div class="paper-title">
-        Characteristic Dependence of Syzygies of Random Monomial Ideals
-      </div>
-      (with Caitlyn Booms and Daniel Erman)
-      <em> SIAM Journal on Discrete Mathematics </em>
-      <a href="https://arxiv.org/abs/2007.13914"> arXiv </a>
-    </li>
-    <li class="paper">
-      <div class="paper-title">
-        Virtual Resolutions of Monomial Ideals on Toric Varieties
-      </div>
-      <em> Proceedings of the AMS Series B </em>
-      <a href="https://arxiv.org/abs/1906.00508"> arXiv </a>
-    </li>
-    <li class="paper">
-      <div class="paper-title">
-        The SchurVeronese package in Macaulay2
-      </div>
-      (with Juliette Bruce, Daniel Erman, and Steve Goldstein)
-      <em> JSAG </em>
-      <a href="https://arxiv.org/abs/1905.12661"> arXiv </a>
-    </li>
-    <li class="paper">
-      <div class="paper-title">
-        Conjectures and Computations about Veronese Syzygies
-      </div>
-      (with Juliette Bruce, Daniel Erman, and Steve Goldstein)
-      <em> Experimental Mathematics </em>
-      <a href="https://arxiv.org/abs/1711.03513"> arXiv </a>
-    </li>
-    <li class="paper">
-      <div class="paper-title">
-        Random Flag Complexes and Asymptotics Syzygies
-      </div>
-      (with Daniel Erman)
-      <em> Algebra &amp; Number Theory </em>
-      <a href="https://arxiv.org/abs/1706.01488"> arXiv </a>
-    </li>
-    <li class="paper">
-      <div class="paper-title">
-        Random Toric Surfaces and a Threshold for Smoothness
-      </div>
-      <em> Journal of Algebra </em>
-      <a href="https://arxiv.org/abs/1605.08739"> arXiv </a>
-    </li>
+    {% endfor %}
   </ol>
-
-  
-  <!--        <h3 class="content-subheading"> Slides and Posters </h3>-->
 </div>
 
 </body></html>
