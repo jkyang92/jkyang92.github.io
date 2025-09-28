@@ -11,6 +11,7 @@
 - title: Hadamard products and binomial ideals
   authors: "Büşra Atar, Kieran Bhaskara, Adrian Cook, Sergio Da Silva, Megumi Harada, Jenna Rajchgot, Adam Van Tuyl, Runyue Wang, and Jay Yang"
   arXiv: 2211.1421
+  doi: 10.1016/j.jpaa.2023.107568
   jorunal: Journal of Pure and Applied Algbera
 
 - title: "Syzygies of P1×P1: data and conjectures"
@@ -18,10 +19,11 @@
   arXiv: 2104.14598
   doi: 10.1016/j.jalgebra.2021.10.023
   journal: Jorunal of Algebra
-
+  
 - title: Homological and combinatorial aspects of virtually Cohen--Macaulay sheaves
   authors: Christine Berkesch, Michael C. Loper, Patricia Klein, and Jay Yang
   arXiv: 2012.14047
+  doi: 10.1112/tlm3.12036
   journal: Transactions of the London Mathematics Society
 
 - title: Combinatorial aspects of virtually Cohen--Macaulay sheaves
@@ -31,34 +33,41 @@
 - title: Asymptotic degree of random monomial ideals
   authors: Lily Silverstein, Dane Wilburne, and Jay Yang
   arXiv: 2009.05174
+  doi: 10.1090/bproc/72
   journal: Journal of Commutative Algebra
 
 - title: Characteristic Dependence of Syzygies of Random Monomial Ideals
   authors: Caitlyn Booms, Daniel Erman, and Jay Yang
   arXiv: 2007.13914
+  doi: 10.1137/21M1392474
   journal: SIAM Journal on Discrete Mathematics
 
 - title: Virtual Resolutions of Monomial Ideals on Toric Varieties
   authors: Jay Yang
   arXiv: 1906.00508
+  doi: 10.1090/bproc/72
   journal: Proceedings of the AMS Series B
 
 - title: The SchurVeronese package in Macaulay2
   authors: Juliette Bruce, Daniel Erman, Steve Goldstein, and Jay Yang
   arXiv: 1905.12661
+  doi: 10.2140/jsag.2021.11.83
   journal: JSAG
 
 - title: Conjectures and computations about veronese syzygies
   authors: Juliette Bruce, Daniel Erman, Steve Goldstein, and Jay Yang
   arXiv: 1711.03513
+  doi: 10.1080/10586458.2018.1474506
   journal: Experimental Mathematics
   
 - title: Random flag complexes and asymptotics syzygies
   authors: Daniel Erman and Jay Yang
   arXiv: 1706.01488
+  doi: 10.2140/ant.2018.12.2151
   journal: "Algebra & Number Theory"
 
 - title: Random toric surfaces and a threshold for smoothness
   authors: Jay Yang
   arXiv: 1605.08739
+  doi: 10.1016/j.jalgebra.2018.12.023
   journal: Journal of Algebra
