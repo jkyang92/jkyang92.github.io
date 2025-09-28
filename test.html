@@ -1,52 +1,26 @@
 ---
-
+layout: default
 ---
-<!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
-      <link rel="stylesheet" href="/grids-responsive-min.css">
-      <link rel="stylesheet" href="/style.css">
-      <title> Jay Yang </title>
-  </head>
-  <body>
-    <div class="pure-g">
-          <div class="pure-u-1-1 header">
-            <div class="pure-menu pure-menu-horizontal">
-              <a href="/index.html" class="pure-menu-heading pure-menu-link">Jay Yang </a>
-              <ul class="pure-menu-list">
-                <li class="pure-menu-item"> <a href="/research.html" class="pure-menu-link">Research</a> </li>
-                <li class="pure-menu-item"> <a href="/teaching.html" class="pure-menu-link">Teaching</a> </li>
-                <li class="pure-menu-item"> <a href="/other.html" class="pure-menu-link">Other</a> </li>
-                <li class="pure-menu-item"> <a href="/cv.pdf" class="pure-menu-link">CV</a> </li>
-              </ul>
-            </div>
-          </div>
-      <div class="content pure-u-1-2 pure-u-md-2-3">
-        <img class="pure-img profile-photo" src="/profile-small.jpg">
-        <h2 class="content-heading"> About Me </h2>
-        <p>I am a Research Assistant Professor at Vanderbilt University, working Commutative Algebra and Algebraic Geometry.</p>
-
-	<p> My recent research focuses on multigraded syzygies, in particular 
-virtual resolutions. But I also have a strong interest in syzygies more 
-broadly as well as connections between Algebraic Geometry, Commutative 
-Algebra, and Combinatorics. For my papers and preprints, see the 
-research tab.</p>
-
-        <p> I am a contributor to <a href="https://github.com/Macaulay2/M2"> Macaualy2 </a>
-        {% capture test %}
-        <h3 class="content-subheading"> Contact </h3>
-        
-        <ul class="contact-info">
-          <li> Office: 1416 Stevenson Center </li>
-          <li> Email: <a href="mailto:jay.k.yang@vanderbilt.edu"> jay.k.yang@vanderbilt.edu </a> </li>
-        </ul>
-        {% endcapture %}
-        {{ test }}
-        {{ test }}
-      </div>
-    </div>
+<div class="content pure-u-1-2 pure-u-md-2-3">
+  <img class="pure-img profile-photo" src="/profile-small.jpg">
+  <h2 class="content-heading"> About Me </h2>
+  <p>I am a Research Assistant Professor at Vanderbilt University, working Commutative Algebra and Algebraic Geometry.</p>
   
-
-</body></html>
+  <p> My recent research focuses on multigraded syzygies, in particular 
+    virtual resolutions. But I also have a strong interest in syzygies more 
+    broadly as well as connections between Algebraic Geometry, Commutative 
+    Algebra, and Combinatorics. For my papers and preprints, see the 
+    research tab.</p>
+  
+  <p> I am a contributor to <a href="https://github.com/Macaulay2/M2"> Macaualy2 </a>
+    {% capture test %}
+    <h3 class="content-subheading"> Contact </h3>
+    
+    <ul class="contact-info">
+      <li> Office: 1416 Stevenson Center </li>
+      <li> Email: <a href="mailto:jay.k.yang@vanderbilt.edu"> jay.k.yang@vanderbilt.edu </a> </li>
+    </ul>
+    {% endcapture %}
+    {{ test }}
+    {{ test }}
+</div>
